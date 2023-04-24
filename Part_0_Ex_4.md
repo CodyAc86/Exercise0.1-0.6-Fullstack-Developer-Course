@@ -1,4 +1,4 @@
-# Exercise0.1-0.6-Fullstack-Developer-Course
+# Exercise0.4-Fullstack-Developer-Course
 Exercises for Fullstack Developer course part 0
 ```mermaid
 sequenceDiagram  
