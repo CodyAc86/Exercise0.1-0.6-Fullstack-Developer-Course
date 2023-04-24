@@ -9,3 +9,4 @@ sequenceDiagram
   
   Note right of browser: The browser sends only one HTTP request to the server, the javascript code is executed on the server and adds the new note to the list then returns the json file without having to redirect the page;
   deactivate server;
+```
