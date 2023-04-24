@@ -7,6 +7,8 @@ sequenceDiagram
   server-->>server: Execute JavaScript code;
   server-->>browser: the json file
   
-  Note right of browser: The browser sends only one HTTP request to the server, the javascript code is executed on the server and adds the new note to the list then returns the json file without having to redirect the page;
+  Note right of browser: The browser sends only one HTTP request to the server
+  Note right of browser: The javascript code is executed on the server and adds the new note to the list then returns the json file without having to redirect the page;
+  Note right of browser: Refreshes the page so the new note is visible in the list;
   deactivate server;
 ```
